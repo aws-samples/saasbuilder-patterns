@@ -1,0 +1,7 @@
+### Core Concept
+* Even when an SaaS environment relies its own self-hosted identity model, these providers may discover customers that are hesitant to do a one-time migration of all their users to the SaaS system. In this mode, they prefer an approach that migrates users to their internally hosted experience. Here, a tenant will be configured with an external provider. When a user authenticates, the system will first attempt to authenticate against the internal provider. If they are not in the internal provider, the system will attempt to authenticate against the external provider. If they are in the external provider, they will be authenticated and migrated to the internal provider.
+
+### Key Considerations
+* The general approach here is to start with the idea that an identity exists within the SaaS environment. This means all requests to authenticate will start with the internally hosted identity provider. If this user is not found there, it will then attempt to authenticate against the customer identity provider.
+* This migration process can introduce some latency into the initial onboarding process. Your solution should make every attempt to minimize the impact of this process, limiting friction for the onboarding process.
+* In this model, the assumption is that this migration of users will occur within a limited window of time. You have to determine when you may stop accepting users from the customer’s environment.

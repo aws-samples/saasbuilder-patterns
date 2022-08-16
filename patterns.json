@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "id": "48774131-176e-489d-b1bf-23a940ab2c16",
+      "name": "Deployment Models",
+      "path": "DeploymentModels",
+      "children": [
+        {
+          "id": "155ac272-8e89-11ec-b909-0242ac120002",
+          "name": "Full Stack Silo Deployment",
+          "path": "FullStackSilo",
+          "children": [
+            {
+              "id": "097463b2-8e8b-11ec-b909-0242ac120002",
+              "name": "Account per tenant",
+              "path": "AccountPerTenant"
+            },
+            {
+              "id": "0fb71756-8e8b-11ec-b909-0242ac120002",
+              "name": "VPC per tenant",
+              "path": "VPCPerTenant"
+            }
+          ]
+        },
+        {
+          "id": "1b2cc466-8e89-11ec-b909-0242ac120002",
+          "name": "Full Stack Pool Deployment",
+          "path": "FullStackPool"
+        },
+        {
+          "id": "59C45492-714F-4481-9F79-DEBC6409A5D9",
+          "name": "Siloed Compute",
+          "path": "SiloedCompute"
+        }
+      ]
+    },
+    {
+      "id": "452ecd96-eb17-11ec-8fea-0242ac120002",
+      "name": "Identity",
+      "path": "Identity",
+      "children": [
+        {
+          "id": "02e6e91c-fc42-4940-854e-e1ffa1b14f2a",
+          "name": "Self-Hosted Identity",
+          "path": "SelfHostedIdentity"
+        },
+        {
+          "id": "02e6e91c-fc42-4940-854e-e1fga1b14f2a",
+          "name": "Externally Hosted Identity",
+          "path": "ExternallyHostedIdentity"
+        },
+        {
+          "id": "905242c2-c397-4f84-a0fe-c59269834c1b",
+          "name": "Just In Time Identity Migration",
+          "path": "JustInTimeIdentityMigration"
+        }
+      ]
+    }
+  ]
+}

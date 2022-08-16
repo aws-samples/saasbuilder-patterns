@@ -1,0 +1,11 @@
+{
+  "authors": [
+    {
+      "name": "Your name",
+      "image": "link-to-your-photo.jpg (full url or partial path to this patterns images folder ex. ./images/photo.jpg)",
+      "bio": "Your bio.",
+      "linkedin": "linked-in-ID",
+      "twitter": "twitter-handle"
+    }
+  ]
+}

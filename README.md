@@ -1,17 +1,4 @@
-## My Project
+# SaaS Builder Patterns
+A repository of well-defined SaaS patterns. The intent of this repository is to help the community expand its knowledge base and contribute to a better understanding of SaaS principles and strategies.
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+The [patterns.json](patterns.json) file contains a dictionary of the patterns available and how they related to other patterns.

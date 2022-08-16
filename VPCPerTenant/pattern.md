@@ -1,0 +1,7 @@
+### Core Concept
+* In this full stack silo pattern VPCs are used as the fundamental unit of deployment and isolation for each tenant. A VPC is provisioned each time a tenant onboards along with the application infrastructure that will be associated with that tenant. Networking constructs will be used to ensure that tenants are prevented from accessing the the VPCs of other tenants.
+
+### Key Considerations
+* You’ll want to think about how many tenants your system expects to support. If you’re anticipating 10’s of thousands of tenants, the VPC-per-tenant model may not be a fit for you. You may run into account limits with this model. More importantly, having this many VPCs could undermine the agility and manageability of your environment. The more distributed these tenants, the more challenging it is to coordinate updates, aggregate operational data, and so on. Some may also consider a pods as a way to mitigate some of the challenges here, using separate accounts to host pods of VPCs for each tenant.
+* The control plane of your SaaS environment will need access to all tenant VPCs. How you secure this access will depend on the needs of your application and the types of interactions you’ll need to support. Some might use secure networking mechanisms (PrivateLink, for example) or messaging constructs (EventBridge). The key here is to pick a technology that best aligns to the security and integration model of your solution.
+
