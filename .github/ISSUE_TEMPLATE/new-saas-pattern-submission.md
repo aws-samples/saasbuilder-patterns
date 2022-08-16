@@ -9,8 +9,8 @@ assignees: swarwick
 
 To submit a pattern to the SaaS Patterns collection, submit an issue with the following information.
 
-**To learn more about submitting a pattern, read the [publishing guidelines](https://github.com/swarwick/saasbuilder-patterns/blob/main/PUBLISHING.md) page.**
-- Use the pattern template located at [here](https://github.com/swarwick/saasbuilder-patterns/tree/main/_pattern-template) to set up a pattern.
+**To learn more about submitting a pattern, read the [publishing guidelines](https://github.com/aws-samples/saasbuilder-patterns/blob/main/PUBLISHING.md) page.**
+- Use the pattern template located at [here](https://github.com/aws-samples/saasbuilder-patterns/tree/main/_pattern-template) to set up a pattern.
 - You can test the format of your layout [here](https://saasbuilder.com/#/Preview) to validate the markdown
 Note the following information for the pattern:
 - pattern.md file completed
