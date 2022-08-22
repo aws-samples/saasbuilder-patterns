@@ -3,4 +3,4 @@ A repository of well-defined SaaS patterns. The intent of this repository is to 
 
 The [patterns.json](patterns.json) file contains a dictionary of the patterns available and how they related to other patterns.
 
-If you would like to submit a pattern please follow the [publishing guide](blob/main/PUBLISHING.md)
+If you would like to submit a pattern please follow the [publishing guide](PUBLISHING.md)
