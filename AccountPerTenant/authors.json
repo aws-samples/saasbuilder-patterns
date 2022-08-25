@@ -7,5 +7,11 @@
       "linkedin": "https://www.linkedin.com/in/tod-golding-0ba35b2/",
       "twitter": "https://twitter.com/tod_golding"
     }
+    {
+      "name": "Dario Rivera",
+      "image": "./images/dario-rivera.jpeg",
+      "bio": "Senior Solutions at AWS",
+      "linkedin": "https://www.linkedin.com/in/dario-rivera-nc/"
+    }
   ]
 }
